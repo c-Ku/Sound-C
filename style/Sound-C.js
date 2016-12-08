@@ -246,6 +246,7 @@
 		//显示音乐名称
 			$("#audio_TITLE").text(myMusics[index].title);
 			$("title").text("Sound-C | " + myMusics[index].title);
+			console.debug("当前音乐："+myMusics[index].title);
 		//歌词获取
 			var lyricURL = myMusics[index].lyric;
 			if(lyricURL!="") {
